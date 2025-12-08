@@ -14,7 +14,7 @@ The designs were created to the following widths:
 ### Primary
 
 - Red 400: hsl(7, 99%, 70%)
-- Yellow 500: hsl(51, 100%, 49%)
+- Yellow 500: 
 - Green 800 (graphic design text): hsl(167, 40%, 24%)
 - Blue 800 (photography text): hsl(198, 62%, 26%)
 - Green 500 (footer): hsl(167, 34%, 41%)
