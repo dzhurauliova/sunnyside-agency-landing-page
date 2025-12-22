@@ -1,3 +1,5 @@
+import './style.css'
+
 export const Client = ({clientsList}) => {
     return(
         <section className="client">
