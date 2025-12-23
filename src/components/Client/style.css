@@ -1,5 +1,114 @@
 .client {
-    margin: auto;
-    width: auto;
+    margin-block: 80px;
+    margin-inline: 50px;
+    background-color: var(--white);
 }
 
+.client-title, .client-info__comment, 
+.client-info__name, .client-info__position {
+    font-size: 18px;
+    text-align: center;
+}
+
+.client-title, .client-info__name {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.client-info__name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.client-info__comment, .client-info__position {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.client-info__comment {
+    line-height: 1.5;
+    text-align: center;
+    color: var(--grey600);
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.client-info__position {
+    color: var(--grey400);
+    margin: 0;
+}
+
+.client-title {
+    text-transform: uppercase;
+    color: var(--grey400);
+    letter-spacing: 3px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.client-info__photo {
+    border-radius: 50%;
+    width: 100px;
+    margin-block: 0;
+}
+
+.clients-list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 768px) {
+    .client {
+        margin-block: 80px;
+        margin-inline: 100px;
+    }
+
+    .client-info__comment {
+        padding-inline: 80px;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .clients-list {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .client {
+        margin-block: 80px;
+        margin-inline: 250px;
+    }
+
+    .client-info__comment {
+        padding-inline: 20px;
+        margin-top: 70px;
+    }
+
+    .client-info__name {
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    .client-title {
+        letter-spacing: 8px;
+    }
+
+    .client {
+        margin-block: 150px;
+    }
+}

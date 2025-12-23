@@ -4,10 +4,10 @@ export const Client = ({clientsList}) => {
     return(
         <section className="client">
             <h3 className="client-title">Client testimonials</h3>
-            <div className="clients">
+            <div className="clients-list">
                 {
                     clientsList.map((client) => (
-                        <div key={client.comment} className="client-ino">
+                        <div key={client.comment} className="client-info">
                             <img src={client.photo} className="client-info__photo"/>
                             <p className="client-info__comment">{client.comment}</p>
                             <h4 className="client-info__name">{client.name}</h4>
